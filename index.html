@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文学的な人格アーキタイプ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Haruno+Umi&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="lang-toggle">
+  <img src="img/jp_flag.png" id="lang-jp" class="flag active">
+  <img src="img/uk_flag.png" id="lang-en" class="flag">
+</div>
+    </header>
+    <div class="container">
+        
+        <div id="start-screen" class="screen active">
+            <h1>文学的な人格アーキタイプ</h1>
+            <p>文学の世界へのこの心理的な旅を通して、あなたの内面を映し出す文学キャラクターを見つけましょう。</p>
+            <p>いくつかの質問に答えて、世界文学の中からあなたの文学的分身を見つけましょう。</p>
+            <button id="start-btn" class="custom-button">旅を始めましょう</button>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <h2 id="question">ここに質問が表示されます</h2>
+            <div id="answers" class="answers-container">
+
+            </div>
+            <button id="next-btn" class="custom-button" disabled>Continue</button>
+        </div>
+
+
+        <div id="result-screen" class="screen">
+            <h2>あなたの文学的な人格</h2>
+            <div id="result-content">
+
+            </div>
+            <button id="restart-btn" class="custom-button">もう一度見つけましょう</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Literary Personality Archetype &copy; 2025 | Nana-chan made it!</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
